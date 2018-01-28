@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF34637128": {
+    "contest_id": 219,
+    "language": "Python 3",
+    "path": "codeforces\\219\\A.py",
+    "problem_index": "A",
+    "problem_name": "k-String",
+    "problem_url": "https://codeforces.com/contest/219/problem/A",
+    "submission_id": "CF34637128",
+    "submission_url": "https://codeforces.com/contest/219/submission/34637128",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Jan/28/2018 21:05"
+  },
   "CF35048566": {
     "contest_id": 922,
     "language": "Python 2",
