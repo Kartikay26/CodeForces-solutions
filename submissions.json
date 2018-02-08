@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF35048566": {
+    "contest_id": 922,
+    "language": "Python 2",
+    "path": "codeforces\\922\\A.py",
+    "problem_index": "A",
+    "problem_name": "Cloning Toys",
+    "problem_url": "https://codeforces.com/contest/922/problem/A",
+    "submission_id": "CF35048566",
+    "submission_url": "https://codeforces.com/contest/922/submission/35048566",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Feb/08/2018 13:04"
+  },
   "CF35048866": {
     "contest_id": 922,
     "language": "Python 2",
