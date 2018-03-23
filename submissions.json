@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF36538499": {
+    "contest_id": 955,
+    "language": "Python 3",
+    "path": "codeforces\\955\\A.py",
+    "problem_index": "A",
+    "problem_name": "Feed the cat",
+    "problem_url": "https://codeforces.com/contest/955/problem/A",
+    "submission_id": "CF36538499",
+    "submission_url": "https://codeforces.com/contest/955/submission/36538499",
+    "tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Mar/23/2018 22:22"
+  },
   "CF36739069": {
     "contest_id": 954,
     "language": "Python 3",
