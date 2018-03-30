@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF36739295": {
+    "contest_id": 954,
+    "language": "Python 3",
+    "path": "codeforces\\954\\A.py",
+    "problem_index": "A",
+    "problem_name": "Diagonal Walking",
+    "problem_url": "https://codeforces.com/contest/954/problem/A",
+    "submission_id": "CF36739295",
+    "submission_url": "https://codeforces.com/contest/954/submission/36739295",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/30/2018 12:13"
+  },
   "CF37227406": {
     "contest_id": 962,
     "language": "Python 3",
