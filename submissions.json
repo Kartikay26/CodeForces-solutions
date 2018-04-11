@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF37227406": {
+    "contest_id": 962,
+    "language": "Python 3",
+    "path": "codeforces\\962\\A.py",
+    "problem_index": "A",
+    "problem_name": "Equator",
+    "problem_url": "https://codeforces.com/contest/962/problem/A",
+    "submission_id": "CF37227406",
+    "submission_url": "https://codeforces.com/contest/962/submission/37227406",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Apr/11/2018 20:23"
+  },
   "CF37414455": {
     "contest_id": 961,
     "language": "Python 3",
