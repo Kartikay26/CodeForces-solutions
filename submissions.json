@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF37414455": {
+    "contest_id": 961,
+    "language": "Python 3",
+    "path": "codeforces\\961\\A.py",
+    "problem_index": "A",
+    "problem_name": "Tetris",
+    "problem_url": "https://codeforces.com/contest/961/problem/A",
+    "submission_id": "CF37414455",
+    "submission_url": "https://codeforces.com/contest/961/submission/37414455",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Apr/17/2018 22:25"
+  },
   "CF38279184": {
     "contest_id": 984,
     "language": "Python 3",
