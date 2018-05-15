@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF38279184": {
+    "contest_id": 984,
+    "language": "Python 3",
+    "path": "codeforces\\984\\B.py",
+    "problem_index": "B",
+    "problem_name": "Minesweeper",
+    "problem_url": "https://codeforces.com/contest/984/problem/B",
+    "submission_id": "CF38279184",
+    "submission_url": "https://codeforces.com/contest/984/submission/38279184",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "May/15/2018 20:38"
+  },
   "CF38285170": {
     "contest_id": 984,
     "language": "Python 3",
