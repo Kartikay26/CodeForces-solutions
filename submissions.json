@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF38368075": {
+    "contest_id": 982,
+    "language": "Python 3",
+    "path": "codeforces\\982\\A.py",
+    "problem_index": "A",
+    "problem_name": "Row",
+    "problem_url": "https://codeforces.com/contest/982/problem/A",
+    "submission_id": "CF38368075",
+    "submission_url": "https://codeforces.com/contest/982/submission/38368075",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*1200"
+    ],
+    "timestamp": "May/17/2018 22:43"
+  },
   "CF38495887": {
     "contest_id": 985,
     "language": "Python 3",
