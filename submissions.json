@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF38495887": {
+    "contest_id": 985,
+    "language": "Python 3",
+    "path": "codeforces\\985\\A.py",
+    "problem_index": "A",
+    "problem_name": "Chess Placing",
+    "problem_url": "https://codeforces.com/contest/985/problem/A",
+    "submission_id": "CF38495887",
+    "submission_url": "https://codeforces.com/contest/985/submission/38495887",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "May/21/2018 20:55"
+  },
   "CF38499060": {
     "contest_id": 985,
     "language": "Python 3",
