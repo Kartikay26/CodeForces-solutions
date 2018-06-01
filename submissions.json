@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF38841915": {
+    "contest_id": 988,
+    "language": "Python 3",
+    "path": "codeforces\\988\\C.py",
+    "problem_index": "C",
+    "problem_name": "Equal Sums",
+    "problem_url": "https://codeforces.com/contest/988/problem/C",
+    "submission_id": "CF38841915",
+    "submission_url": "https://codeforces.com/contest/988/submission/38841915",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Jun/01/2018 20:33"
+  },
   "CF39090756": {
     "contest_id": 990,
     "language": "Python 3",
