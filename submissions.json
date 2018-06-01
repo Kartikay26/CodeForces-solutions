@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF38838156": {
+    "contest_id": 988,
+    "language": "Python 3",
+    "path": "codeforces\\988\\B.py",
+    "problem_index": "B",
+    "problem_name": "Substrings Sort",
+    "problem_url": "https://codeforces.com/contest/988/problem/B",
+    "submission_id": "CF38838156",
+    "submission_url": "https://codeforces.com/contest/988/submission/38838156",
+    "tags": [
+      "sortings",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "Jun/01/2018 20:21"
+  },
   "CF38841915": {
     "contest_id": 988,
     "language": "Python 3",
