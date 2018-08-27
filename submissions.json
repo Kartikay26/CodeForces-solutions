@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF42163885": {
+    "contest_id": 1028,
+    "language": "Python 3",
+    "path": "codeforces\\1028\\A.py",
+    "problem_index": "A",
+    "problem_name": "Find Square",
+    "problem_url": "https://codeforces.com/contest/1028/problem/A",
+    "submission_id": "CF42163885",
+    "submission_url": "https://codeforces.com/contest/1028/submission/42163885",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/27/2018 22:22"
+  },
   "CF42167251": {
     "contest_id": 1028,
     "language": "Python 3",
