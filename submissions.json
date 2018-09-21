@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF43186332": {
+    "contest_id": 1047,
+    "language": "GNU C++17",
+    "path": "codeforces\\1047\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Little C Loves 3 I",
+    "problem_url": "https://codeforces.com/contest/1047/problem/A",
+    "submission_id": "CF43186332",
+    "submission_url": "https://codeforces.com/contest/1047/submission/43186332",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/21/2018 20:10"
+  },
   "CF43192859": {
     "contest_id": 1047,
     "language": "GNU C++17",
