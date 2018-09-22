@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF43245828": {
+    "contest_id": 1046,
+    "language": "GNU C++17",
+    "path": "codeforces\\1046\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Space Formula",
+    "problem_url": "https://codeforces.com/contest/1046/problem/C",
+    "submission_id": "CF43245828",
+    "submission_url": "https://codeforces.com/contest/1046/submission/43245828",
+    "tags": [
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Sep/22/2018 16:50"
+  },
   "CF43250153": {
     "contest_id": 1046,
     "language": "GNU C++17",
