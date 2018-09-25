@@ -15,13 +15,14 @@ typedef vector<int> vi;
 int32_t main(){
 	fast_io();
 
-	string s;
+	string s, s2, s3, s4;
+
 	cin >> s;
 
-	string r1;
-	regex_replace(back_inserter(r1), s.begin(), s.end(), regex("^(WUB)+|(WUB)+$"), "");
-	string r2;
-	regex_replace(back_inserter(r2), r1.begin(), r1.end(), regex("(WUB)+"), " ");
+	regex_replace(back_inserter(s2), all(s), regex("(WUB)$"), "");
+	regex_replace(back_inserter(s3), all(s2), regex("^(WUB)"), "");
+	regex_replace(back_inserter(s4), all(s3), regex("(WUB)+"), " ");
 
-	cout << r2 << endl;
+	cout << s4 << endl;
+
 }
