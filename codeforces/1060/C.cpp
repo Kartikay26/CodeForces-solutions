@@ -25,33 +25,42 @@ int32_t main(){
 	}
 	int x; cin >> x;
 
-	vi C(n+1), D(m+1);
 
-	for (int l = 1; l <= n; ++l) {
-		int z = 1e9;
-		for (int i = 0; i <= n-l; ++i) {
-			z = min(as[i+l]-as[i],z);
+	vector<pii> is;
+	for (int l = 0; l < n; ++l) {
+		int min_i1 = 0, min_i2 = l, min_sum = 1e9;
+		for (int i1 = 0; i1 < n - l; ++i1) {
+			int i2 = i1 + l;
+			if (as[i2+1]-as[i1] < min_sum){
+				min_i1 = i1;
+				min_i2 = i2;
+				min_sum = as[i2+1]-as[i1];
+			}
 		}
-		C[l] = z;
+		is.push_back({min_i1,min_i2});
+	}
+	
+	int max_ar = 0;
+
+	// for *SOME* i1 .. i2 do this
+	// find max j1..j2 so that (as[i2+1]-as[i1])*(bs[j2+1]-as[j1]) is <= x
+	for(auto ir : is){
+		int i1 = ir.first;
+		int i2 = ir.second;
+		int j1 = 0, j2 = 0;
+		while(j2 != m and j1 != m){
+			#define rect ((as[i2+1]-as[i1])*(bs[j2+1]-bs[j1]))
+			#define area (i2-i1+1)*(j2-j1+1)
+			if (rect <= x){
+				max_ar = max(area, max_ar);
+				j2++;
+			} else {
+				j1++;
+			}
+		}
 	}
 
-	for (int l = 1; l <= m; ++l) {
-		int z = 1e9;
-		for (int j = 0; j <= m-l; ++j) {
-			z = min(bs[j+l]-bs[j],z);
-		}
-		D[l] = z;
-	}
 
-	// debug(a);debug(b);debug(as);debug(bs);debug(C);debug(D);
-
-	int ans = 0;
-	for (int i = 1; i <= n; ++i) {
-		for (int j = 1; j <= m; ++j) {
-			if(C[i] * D[j] <= x) ans = max(ans, i*j);
-		}
-	}
-
-	cout << ans << endl;
+	cout << max_ar << endl;
 
 }
