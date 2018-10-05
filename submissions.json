@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF43820566": {
+    "contest_id": 1060,
+    "language": "GNU C++17",
+    "path": "codeforces\\1060\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Maximum Subrectangle",
+    "problem_url": "https://codeforces.com/contest/1060/problem/C",
+    "submission_id": "CF43820566",
+    "submission_url": "https://codeforces.com/contest/1060/submission/43820566",
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Oct/05/2018 14:15"
+  },
   "CF43833396": {
     "contest_id": 1059,
     "language": "GNU C++17",
