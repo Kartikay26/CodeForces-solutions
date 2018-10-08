@@ -15,36 +15,13 @@ typedef vector<int> vi;
 int32_t main(){
 	fast_io();
 
-	string s, r = "";
+	string s;
 	cin >> s;
 
-	bool beginignoreWUBS = true, replaceWUBS = false, replacingflag = false;
+	string r1;
+	regex_replace(back_inserter(r1), s.begin(), s.end(), regex("^(WUB)+|(WUB)+$"), "");
+	string r2;
+	regex_replace(back_inserter(r2), r1.begin(), r1.end(), regex("(WUB)+"), " ");
 
-	for (int i = 0; i < s.size(); ) {
-		
-		if (beginignoreWUBS && s.substr(i,3) == "WUB") {
-			i += 3;
-		} else {
-			beginignoreWUBS = false;
-			replaceWUBS = true;
-		}
-
-		if (replaceWUBS) {
-			if(s.substr(i,3) == "WUB"){
-				while(s.substr(i,3) == "WUB"){
-					i += 3;
-				}
-				if(i == s.size())
-					break;
-				r += " ";
-			}
-			else{
-				r += s[i];
-				i++;
-			}
-		}
-
-	}
-
-	cout << r << endl;
+	cout << r2 << endl;
 }
