@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF44185869": {
+    "contest_id": 754,
+    "language": "GNU C++17",
+    "path": "codeforces\\754\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Lesha and array splitting",
+    "problem_url": "https://codeforces.com/contest/754/problem/A",
+    "submission_id": "CF44185869",
+    "submission_url": "https://codeforces.com/contest/754/submission/44185869",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Oct/12/2018 18:37"
+  },
   "CF44186183": {
     "contest_id": 754,
     "language": "GNU C++17",
