@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF44281398": {
+    "contest_id": 876,
+    "language": "GNU C++17",
+    "path": "codeforces\\876\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Divisiblity of Differences",
+    "problem_url": "https://codeforces.com/contest/876/problem/B",
+    "submission_id": "CF44281398",
+    "submission_url": "https://codeforces.com/contest/876/submission/44281398",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Oct/14/2018 10:27"
+  },
   "CF44282512": {
     "contest_id": 876,
     "language": "GNU C++17",
