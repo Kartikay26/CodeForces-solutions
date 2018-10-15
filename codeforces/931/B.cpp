@@ -21,7 +21,13 @@ int32_t main(){
 	fast_io();
 	int n,a,b; cin >> n >> a >> b;
 	int z = (a-1)^(b-1);
-	int ans = sizeof(int)*8 - __builtin_clzll(z);
+	int ans = -1;
+	for (int i = 31; i >= 0; --i) {
+		if (z & (1<<i)) {
+			ans = i+1;
+			break;
+		}
+	}
 	if (1<<ans == n) {
 		cout << "Final!" << endl;
 	} else {
