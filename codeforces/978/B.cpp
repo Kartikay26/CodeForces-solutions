@@ -28,5 +28,4 @@ int32_t main(){
 		}
 	}
 	cout << cnt << endl;
-	
 }
