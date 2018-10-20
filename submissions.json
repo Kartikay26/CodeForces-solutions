@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF44588719": {
+    "contest_id": 1070,
+    "language": "GNU C++17",
+    "path": "codeforces\\1070\\H.cpp",
+    "problem_index": "H",
+    "problem_name": "BerOS File Suggestion",
+    "problem_url": "https://codeforces.com/contest/1070/problem/H",
+    "submission_id": "CF44588719",
+    "submission_url": "https://codeforces.com/contest/1070/submission/44588719",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Oct/20/2018 15:54"
+  },
   "CF44595152": {
     "contest_id": 1070,
     "language": "GNU C++17",
