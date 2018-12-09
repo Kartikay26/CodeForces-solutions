@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF46821352": {
+    "contest_id": 861,
+    "language": "GNU C++17",
+    "path": "codeforces\\861\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "k-rounding",
+    "problem_url": "https://codeforces.com/contest/861/problem/A",
+    "submission_id": "CF46821352",
+    "submission_url": "https://codeforces.com/contest/861/submission/46821352",
+    "tags": [
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Dec/09/2018 20:59"
+  },
   "CF46852401": {
     "contest_id": 861,
     "language": "GNU C++17",
