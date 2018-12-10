@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF46852401": {
+    "contest_id": 861,
+    "language": "GNU C++17",
+    "path": "codeforces\\861\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Which floor?",
+    "problem_url": "https://codeforces.com/contest/861/problem/B",
+    "submission_id": "CF46852401",
+    "submission_url": "https://codeforces.com/contest/861/submission/46852401",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Dec/10/2018 18:28"
+  },
   "CF46860386": {
     "contest_id": 1084,
     "language": "GNU C++17",
