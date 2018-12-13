@@ -30,7 +30,7 @@ const int N = 100+2;
 
 char a[N];
 
-int cnt[N][3]; // 3 = length of "QAQ"
+int Q[N], QA[N], QAQ[N];
 
 int32_t main(){
 	fast_io();
@@ -38,15 +38,21 @@ int32_t main(){
 	cin >> s;	
 	int n = s.length(), ans = 0;
 	strcpy(a+1, s.c_str());
-	string match = "QAQ";
-	for (int i = 1; i <= n; ++i) {
-		for (int j = 0; j < match.length(); ++j) {
-			if(a[i] == match[j])
-				cnt[i][j] = cnt[i-1][j] + (j>0 ? cnt[i-1][j-1] : 1);
-			else
-				cnt[i][j] = cnt[i-1][j];
-		}
+	for (int i = 1; i <= n; ++i) {		
+		if(a[i] == 'Q')
+			Q[i] = Q[i-1] + 1;
+		else
+			Q[i] = Q[i-1];		
+		if(a[i] == 'A')
+			QA[i] = QA[i-1] + Q[i-1];
+		else
+			QA[i] = QA[i-1];
+		if(a[i] == 'Q')
+			QAQ[i] = QAQ[i-1] + QA[i-1];
+		else
+			QAQ[i] = QAQ[i-1];
 	}
-	ans = cnt[n][2];
+	debuga(a,n);debuga(Q,n);debuga(QA,n);debuga(QAQ,n);
+	ans = QAQ[n];
 	cout << ans << endl;
 }
