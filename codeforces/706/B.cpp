@@ -26,24 +26,19 @@ typedef vector<int> vi;
 typedef pair<int, int> pii;
 
 const int mod = 1e9+7;
-const int N = 1e5+1;
-
-int x[N], c[N];
+const int N = 1e6+1;
 
 int32_t main(){
 	fast_io();
-	int n; cin >> n;
+	int n; cin >> n; vi x(n);
 	for (int i = 0; i < n; ++i) {
 		cin >> x[i];
-		c[x[i]]++;
 	}
-	for (int i = 1; i < N; ++i) {
-		c[i] += c[i-1];
-	}
+	sort(all(x));
 	int q; cin >> q;
 	for (int i = 0; i < q; ++i) {
-		int mi; cin >> mi; mi = min(mi, N-1);
-		cout << c[mi] << endl;
+		int m; cin >> m;
+		int a = upper_bound(all(x), m) - x.begin();
+		cout << a << endl;
 	}
-	return 0;
 }
