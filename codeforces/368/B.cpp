@@ -1,50 +1,49 @@
 // kartikay26
 #include <bits/stdc++.h>
 using namespace std;
-#ifdef LOCAL
-#include "prettyprint.hpp"
-#else
-#define debug(x...) 
-#endif
-typedef long long int ll; typedef double db; typedef vector<ll> vi; typedef pair<ll, ll> pii;
-#define int ll
-#define all(x) x.begin(), x.end()
-#define rall(x) x.rbegin(), x.rend()
-#define clr(x) memset(x, 0, sizeof(x))
 #define fast_io() ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0)
-void print(){cout << endl;} void prints(){} int get() {int x; cin >> x; return x;}
-template<typename T> void print(T x){cout << x << endl;} template<typename T> void prints(T x){cout << x;}
-template<typename T> void get(T* x, int n){for (int i = 0; i < n; ++i) { cin >> x[i]; }}
-template<typename T> void get(T& x, int n){for (int i = 0; i < n; ++i) { cin >> x[i]; }}
-template<typename T, typename... A> void print(T x,A... r){cout << x << " ";print(r...);}
-template<typename T, typename... A> void prints(T x,A... r){cout << x; prints(r...);}
+#define all(x) x.begin(), x.end()
+#ifndef ONLINE_JUDGE
+#include "prettyprint.hpp"
+#define debug(...) cout << "debug: " << #__VA_ARGS__ " = " << make_tuple(__VA_ARGS__) << endl
+#define debuga(arr, n) dbga(arr, n, #arr)
+#else
+#define debug(...)
+#define debuga(arr, n)
+#endif
+typedef long long int ll;
+#define int ll
+template<typename T> void dbga(T* a, int n, string s){
+	cout << "debug: " << s << " = [";
+	while(n--){cout << *a++ << (n?", ":"");} cout << "]\n";
+}
+#define F first
+#define S second
+#define float double
+const int inf = LLONG_MAX;
+typedef double db;
+typedef vector<int> vi;
+typedef pair<int, int> pii;
 
 const int mod = 1e9+7;
-const int N = 1e6+1;
+const int N = 1e5+1;
 
-vi testcase(){
-	int n = get();
-	int m = get();
-	vector<int> a(n); get(a,n);
-	vi b(n);
-	set<int> s;
-	for (int i = 0; i < n; ++i) {
-		int x = a[n-i-1];
-		s.insert(x);
-		b[n-i-1] = s.size();
-	}
-	vi ans;
-	for (int i = 0; i < m; ++i) {
-		int l = get()-1;
-		ans.push_back(b[l]);
-	}
-	return ans;
-}
+int a[N], n, m, c[N];
 
 int32_t main(){
 	fast_io();
-	for (auto a : testcase()) {
-		print(a);
+	cin >> n;
+	cin >> m;
+	for (int i = 0; i < n; ++i) cin >> a[i];
+	set<int> s;
+	for (int i = n-1; i >= 0; --i) {
+		s.insert(a[i]);
+		c[i] = s.size();
+	}
+	for (int i = 0; i < m; ++i) {
+		int li;
+		cin >> li;
+		cout << c[li-1] << endl;
 	}
 	return 0;
 }
