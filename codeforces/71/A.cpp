@@ -1,41 +1,43 @@
 // kartikay26
 #include <bits/stdc++.h>
 using namespace std;
-#ifdef LOCAL
-#include "prettyprint.hpp"
-#else
-#define debug(x...) 
-#endif
-typedef long long int ll; typedef double db; typedef vector<ll> vi; typedef pair<ll, ll> pii;
-#define int ll
-#define all(x) x.begin(), x.end()
-#define rall(x) x.rbegin(), x.rend()
-#define clr(x) memset(x, 0, sizeof(x))
 #define fast_io() ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0)
-void print(){cout << endl;} void prints(){} int get() {int x; cin >> x; return x;}
-template<typename T> void get(T* x, int n){for (int i = 0; i < n; ++i) { cin >> x[i]; }}
-template<typename T> void get(T& x, int n){for (int i = 0; i < n; ++i) { cin >> x[i]; }}
-template<typename T, typename... A> void print(T x,A... r){cout << x << " ";print(r...);}
-template<typename T, typename... A> void prints(T x,A... r){cout << x;prints(r...);}
-
-const int mod = 1e9+7;
-const int N = 1e6+1;
-
-string testcase(int){
-	string s; cin >> s;
-	if (s.size() > 10) {
-		return string() + s[0] + to_string(s.size() - 2) + s[s.size()-1];
+#define all(x) x.begin(), x.end()
+#ifndef ONLINE_JUDGE
+#include "prettyprint.hpp"
+#define debug(...) cout << "debug: " << #__VA_ARGS__ " = "; _dbg(__VA_ARGS__);
+#define debuga(arr, n) _dbga(arr, n, #arr)
+#else
+#define debug(...)
+#define debuga(arr, n)
+#endif
+typedef long long int ll;
+#define int ll
+#define F first
+#define S second
+#define float double
+const int inf = LLONG_MAX;
+typedef double db;
+typedef vector<int> vi;
+typedef pair<int, int> pii;
+void test()
+{
+	string s;
+	cin >> s;
+	if(s.length()>10) {
+		cout << s[0] << s.length()-2 << s[s.length()-1] <<endl;
 	} else {
-		return s;
+		cout << s << endl;
 	}
 }
+const int mod = 1e9+7;
+const int N = 1e6+1;
 
 int32_t main(){
 	fast_io();
 	int t;
 	cin >> t;
-	for (int i = 1; i <= t; ++i) {
-		print(testcase(i));
-	}
+	while(t--)
+		test();
 	return 0;
 }

@@ -210,8 +210,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 117 | [B - Parity Alternated Deletions](https://codeforces.com/contest/1144/problem/B) | [GNU C++17](./codeforces/1144/B.cpp) | `greedy` `implementation` `sortings` `*900` | Oct/17/2019 12:07 | 
 116 | [A - Diverse Strings](https://codeforces.com/contest/1144/problem/A) | [GNU C++17](./codeforces/1144/A.cpp) | `implementation` `strings` `*800` | Oct/17/2019 12:00 | 
 115 | [C - Two Shuffled Sequences](https://codeforces.com/contest/1144/problem/C) | [GNU C++17](./codeforces/1144/C.cpp) | `constructive algorithms` `sortings` `*1000` | Oct/17/2019 11:55 | 
-114 | [C1 - Balanced Removals (Easier)](https://codeforces.com/contest/1237/problem/C1) | [Python 3](./codeforces/1237/C1.py) | `constructive algorithms` `geometry` `greedy` `*1700` | Oct/16/2019 22:14 | 
-113 | [C2 - Balanced Removals (Harder)](https://codeforces.com/contest/1237/problem/C2) | [Python 3](./codeforces/1237/C2.py) | `binary search` `constructive algorithms` `divide and conquer` `greedy` `implementation` `sortings` `*1900` | Oct/16/2019 22:14 | 
+114 | [C2 - Balanced Removals (Harder)](https://codeforces.com/contest/1237/problem/C2) | [Python 3](./codeforces/1237/C2.py) | `binary search` `constructive algorithms` `divide and conquer` `greedy` `implementation` `sortings` `*1900` | Oct/16/2019 22:14 | 
+113 | [C1 - Balanced Removals (Easier)](https://codeforces.com/contest/1237/problem/C1) | [Python 3](./codeforces/1237/C1.py) | `constructive algorithms` `geometry` `greedy` `*1700` | Oct/16/2019 22:14 | 
 112 | [B - Balanced Tunnel](https://codeforces.com/contest/1237/problem/B) | [GNU C++17](./codeforces/1237/B.cpp) | `data structures` `sortings` `two pointers` `*1300` | Oct/16/2019 20:52 | 
 111 | [A - Balanced Rating Changes](https://codeforces.com/contest/1237/problem/A) | [GNU C++17](./codeforces/1237/A.cpp) | `implementation` `math` `*1000` | Oct/16/2019 20:27 | 
 110 | [D - Paint the Tree](https://codeforces.com/contest/1244/problem/D) | [GNU C++17](./codeforces/1244/D.cpp) | `brute force` `constructive algorithms` `dp` `graphs` `implementation` `trees` `*1800` | Oct/13/2019 16:31 | 

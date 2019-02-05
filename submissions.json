@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF49485352": {
+    "contest_id": 71,
+    "language": "GNU C++17",
+    "path": "codeforces\\71\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Way Too Long Words",
+    "problem_url": "https://codeforces.com/contest/71/problem/A",
+    "submission_id": "CF49485352",
+    "submission_url": "https://codeforces.com/contest/71/submission/49485352",
+    "tags": [
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/05/2019 10:35"
+  },
   "CF50634760": {
     "contest_id": 584,
     "language": "GNU C++17",
