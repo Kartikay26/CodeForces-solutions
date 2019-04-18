@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF52973058": {
+    "contest_id": 1151,
+    "language": "Python 3",
+    "path": "codeforces\\1151\\D.py",
+    "problem_index": "D",
+    "problem_name": "Stas and the Queue at the Buffet",
+    "problem_url": "https://codeforces.com/contest/1151/problem/D",
+    "submission_id": "CF52973058",
+    "submission_url": "https://codeforces.com/contest/1151/submission/52973058",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Apr/18/2019 22:01"
+  },
   "CF52975507": {
     "contest_id": 1151,
     "language": "Python 3",
