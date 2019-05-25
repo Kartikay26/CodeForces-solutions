@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF54636192": {
+    "contest_id": 32,
+    "language": "Python 3",
+    "path": "codeforces\\32\\B.py",
+    "problem_index": "B",
+    "problem_name": "Borze",
+    "problem_url": "https://codeforces.com/contest/32/problem/B",
+    "submission_id": "CF54636192",
+    "submission_url": "https://codeforces.com/contest/32/submission/54636192",
+    "tags": [
+      "expression parsing",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/25/2019 22:39"
+  },
   "CF54636489": {
     "contest_id": 1036,
     "language": "Python 3",
