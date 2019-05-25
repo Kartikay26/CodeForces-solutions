@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF54636489": {
+    "contest_id": 1036,
+    "language": "Python 3",
+    "path": "codeforces\\1036\\A.py",
+    "problem_index": "A",
+    "problem_name": "Function Height",
+    "problem_url": "https://codeforces.com/contest/1036/problem/A",
+    "submission_id": "CF54636489",
+    "submission_url": "https://codeforces.com/contest/1036/submission/54636489",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "May/25/2019 22:49"
+  },
   "CF54672419": {
     "contest_id": 1169,
     "language": "Python 3",
