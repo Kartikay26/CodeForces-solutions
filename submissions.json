@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF54636021": {
+    "contest_id": 1038,
+    "language": "Python 3",
+    "path": "codeforces\\1038\\A.py",
+    "problem_index": "A",
+    "problem_name": "Equality",
+    "problem_url": "https://codeforces.com/contest/1038/problem/A",
+    "submission_id": "CF54636021",
+    "submission_url": "https://codeforces.com/contest/1038/submission/54636021",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/25/2019 22:32"
+  },
   "CF54636192": {
     "contest_id": 32,
     "language": "Python 3",
