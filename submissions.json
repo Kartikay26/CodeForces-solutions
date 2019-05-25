@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF54635561": {
+    "contest_id": 486,
+    "language": "Python 3",
+    "path": "codeforces\\486\\A.py",
+    "problem_index": "A",
+    "problem_name": "Calculating Function",
+    "problem_url": "https://codeforces.com/contest/486/problem/A",
+    "submission_id": "CF54635561",
+    "submission_url": "https://codeforces.com/contest/486/submission/54635561",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/25/2019 22:16"
+  },
   "CF54635849": {
     "contest_id": 761,
     "language": "Python 3",
