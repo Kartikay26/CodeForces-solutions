@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF54672419": {
+    "contest_id": 1169,
+    "language": "Python 3",
+    "path": "codeforces\\1169\\A.py",
+    "problem_index": "A",
+    "problem_name": "Circle Metro",
+    "problem_url": "https://codeforces.com/contest/1169/problem/A",
+    "submission_id": "CF54672419",
+    "submission_url": "https://codeforces.com/contest/1169/submission/54672419",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "May/26/2019 21:15"
+  },
   "CF54688910": {
     "contest_id": 1169,
     "language": "Python 3",
