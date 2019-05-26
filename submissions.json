@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF54688910": {
+    "contest_id": 1169,
+    "language": "Python 3",
+    "path": "codeforces\\1169\\B.py",
+    "problem_index": "B",
+    "problem_name": "Pairs",
+    "problem_url": "https://codeforces.com/contest/1169/problem/B",
+    "submission_id": "CF54688910",
+    "submission_url": "https://codeforces.com/contest/1169/submission/54688910",
+    "tags": [
+      "graphs",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "May/26/2019 22:37"
+  },
   "CF54755431": {
     "contest_id": 1170,
     "language": "Kotlin",
