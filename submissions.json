@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF54757757": {
+    "contest_id": 1170,
+    "language": "Kotlin",
+    "path": "codeforces\\1170\\B.kt",
+    "problem_index": "B",
+    "problem_name": "Bad Days",
+    "problem_url": "https://codeforces.com/contest/1170/problem/B",
+    "submission_id": "CF54757757",
+    "submission_url": "https://codeforces.com/contest/1170/submission/54757757",
+    "tags": [
+      "*special problem",
+      "implementation"
+    ],
+    "timestamp": "May/28/2019 20:39"
+  },
   "CF54919255": {
     "contest_id": 1148,
     "language": "Python 3",
