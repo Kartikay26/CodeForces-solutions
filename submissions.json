@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF54755431": {
+    "contest_id": 1170,
+    "language": "Kotlin",
+    "path": "codeforces\\1170\\A.kt",
+    "problem_index": "A",
+    "problem_name": "Three Integers Again",
+    "problem_url": "https://codeforces.com/contest/1170/problem/A",
+    "submission_id": "CF54755431",
+    "submission_url": "https://codeforces.com/contest/1170/submission/54755431",
+    "tags": [
+      "*special problem",
+      "math"
+    ],
+    "timestamp": "May/28/2019 20:12"
+  },
   "CF54757757": {
     "contest_id": 1170,
     "language": "Kotlin",
