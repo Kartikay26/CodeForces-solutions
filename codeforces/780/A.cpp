@@ -29,17 +29,18 @@ int32_t main(){
 	for(auto &i : v){
 		cin >> i;
 	}
-	vector<bool> t(n);
-	int x = 0, m = 0;
+	set<int> s;
+	int m = 0;
+	int table = 0;
 	for(auto &i : v){
-		if(t[i]){
-			x--;
+		if (s.count(i)){
+			table -= 1;
 		} else {
-			t[i] = 1;
-			x++;
+			table += 1;
+			s.insert(i);
 		}
-		m = max(m, x);
+		m = max(m, table);
 	}
-	cout << m << "\n";
+	cout << m << endl;
 	return 0;
 }
