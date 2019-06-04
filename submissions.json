@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF55071835": {
+    "contest_id": 185,
+    "language": "GNU C++17",
+    "path": "codeforces\\185\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Plant",
+    "problem_url": "https://codeforces.com/contest/185/problem/A",
+    "submission_id": "CF55071835",
+    "submission_url": "https://codeforces.com/contest/185/submission/55071835",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jun/04/2019 12:11"
+  },
   "CF55072383": {
     "contest_id": 780,
     "language": "GNU C++17",
