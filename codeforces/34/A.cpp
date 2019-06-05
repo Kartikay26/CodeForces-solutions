@@ -23,19 +23,27 @@ typedef pair<int, int> pii;
 const int mod = 1e9+7;
 const int N = 1e6+1;
 
-
+int diff(pii x){
+	auto [a,b] = x;
+	return abs(a-b);
+}
 
 int32_t main(){
 	fast_io();
 	int n; cin >> n;
-	vi a(n); for(auto &i : a){ cin >> i; }
-	vector<pii> p;
+	vi a(n);
 	for (int i = 0; i < n; ++i) {
-		p.push_back({i,(i+1)%n});
+		cin >> a[i];
 	}
-	auto key = [=](pii x){ return abs(a[x.first] - a[x.second]); };
-	pii ans = *max_element(all(p),
-		[=](pii a, pii b){return key(a) > key(b);});
-	cout << ans.first+1 << ' ' << ans.second+1;
+	pii ans = {a[0],a[1]};
+	pii idx = {0,1};
+	for (int i = 0; i < n; ++i){
+		int j = (i+1) % n;
+		if (diff(ans) > diff({a[i],a[j]})){
+			ans = {a[i], a[j]};
+			idx = {i,j};
+		}
+	}
+	cout << idx.first + 1 << ' ' << idx.second + 1 << '\n';
 	return 0;
 }
