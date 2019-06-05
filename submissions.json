@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF55109284": {
+    "contest_id": 545,
+    "language": "GNU C++17",
+    "path": "codeforces\\545\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Toy Cars",
+    "problem_url": "https://codeforces.com/contest/545/problem/A",
+    "submission_id": "CF55109284",
+    "submission_url": "https://codeforces.com/contest/545/submission/55109284",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Jun/05/2019 10:48"
+  },
   "CF55110898": {
     "contest_id": 34,
     "language": "GNU C++17",
