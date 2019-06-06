@@ -25,9 +25,22 @@ const int N = 1e6+1;
 
 int32_t main(){
 	fast_io();
-	int n; cin >> n;
-	int k = pow(10, int(log10(n)));
-	int ans = k * ((n/k)+1) - n;
-	cout << ans;
+	string s; cin >> s;
+	int n = s.size();
+
+	string s2 = s;
+	for (int i = 1; i < n; ++i) {
+		s2[i] = '0';
+	}
+	int old_num = stoll(s);
+	int new_num;
+	if(s2[0] == '9'){
+		new_num = stoll(s2);
+		new_num += new_num/9;
+	} else {
+		s2[0]++;
+		new_num = stoll(s2);
+	}
+	cout << new_num - old_num;
 	return 0;
 }
