@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF55347970": {
+    "contest_id": 1176,
+    "language": "Python 3",
+    "path": "codeforces\\1176\\C.py",
+    "problem_index": "C",
+    "problem_name": "Lose it!",
+    "problem_url": "https://codeforces.com/contest/1176/problem/C",
+    "submission_id": "CF55347970",
+    "submission_url": "https://codeforces.com/contest/1176/submission/55347970",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jun/09/2019 20:31"
+  },
   "CF55434801": {
     "contest_id": 1182,
     "language": "Python 3",
