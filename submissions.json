@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF55444545": {
+    "contest_id": 1182,
+    "language": "Python 3",
+    "path": "codeforces\\1182\\B.py",
+    "problem_index": "B",
+    "problem_name": "Plus from Picture",
+    "problem_url": "https://codeforces.com/contest/1182/problem/B",
+    "submission_id": "CF55444545",
+    "submission_url": "https://codeforces.com/contest/1182/submission/55444545",
+    "tags": [
+      "dfs and similar",
+      "implementation",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Jun/11/2019 18:58"
+  },
   "CF55756565": {
     "contest_id": 1185,
     "language": "Python 3",
