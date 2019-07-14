@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF57029150": {
+    "contest_id": 1194,
+    "language": "Python 3",
+    "path": "codeforces\\1194\\B.py",
+    "problem_index": "B",
+    "problem_name": "Yet Another Crosses Problem",
+    "problem_url": "https://codeforces.com/contest/1194/problem/B",
+    "submission_id": "CF57029150",
+    "submission_url": "https://codeforces.com/contest/1194/submission/57029150",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jul/14/2019 20:32"
+  },
   "CF57040281": {
     "contest_id": 1194,
     "language": "Python 3",
