@@ -118,6 +118,24 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF58284802": {
+    "contest_id": 1201,
+    "language": "Python 3",
+    "path": "codeforces\\1201\\C.py",
+    "problem_index": "C",
+    "problem_name": "Maximum Median",
+    "problem_url": "https://codeforces.com/contest/1201/problem/C",
+    "submission_id": "CF58284802",
+    "submission_url": "https://codeforces.com/contest/1201/submission/58284802",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Aug/04/2019 22:43"
+  },
   "CF58440897": {
     "contest_id": 1202,
     "language": "Python 3",
