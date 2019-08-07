@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF58440897": {
+    "contest_id": 1202,
+    "language": "Python 3",
+    "path": "codeforces\\1202\\A.py",
+    "problem_index": "A",
+    "problem_name": "You Are Given Two Binary Strings...",
+    "problem_url": "https://codeforces.com/contest/1202/problem/A",
+    "submission_id": "CF58440897",
+    "submission_url": "https://codeforces.com/contest/1202/submission/58440897",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Aug/07/2019 20:33"
+  },
   "CF58577473": {
     "contest_id": 1200,
     "language": "Python 3",
