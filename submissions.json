@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF58577473": {
+    "contest_id": 1200,
+    "language": "Python 3",
+    "path": "codeforces\\1200\\A.py",
+    "problem_index": "A",
+    "problem_name": "Hotelier",
+    "problem_url": "https://codeforces.com/contest/1200/problem/A",
+    "submission_id": "CF58577473",
+    "submission_url": "https://codeforces.com/contest/1200/submission/58577473",
+    "tags": [
+      "brute force",
+      "data structures",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/11/2019 18:10"
+  },
   "CF58591251": {
     "contest_id": 1200,
     "language": "Python 3",
