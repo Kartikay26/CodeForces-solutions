@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF58902232": {
+    "contest_id": 1203,
+    "language": "Python 3",
+    "path": "codeforces\\1203\\B.py",
+    "problem_index": "B",
+    "problem_name": "Equal Rectangles",
+    "problem_url": "https://codeforces.com/contest/1203/problem/B",
+    "submission_id": "CF58902232",
+    "submission_url": "https://codeforces.com/contest/1203/submission/58902232",
+    "tags": [
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Aug/16/2019 15:09"
+  },
   "CF58904158": {
     "contest_id": 545,
     "language": "GNU C++17",
