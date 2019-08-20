@@ -118,6 +118,24 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF59173506": {
+    "contest_id": 1204,
+    "language": "GNU C++17",
+    "path": "codeforces\\1204\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Anna, Svyatoslav and Maps",
+    "problem_url": "https://codeforces.com/contest/1204/problem/C",
+    "submission_id": "CF59173506",
+    "submission_url": "https://codeforces.com/contest/1204/submission/59173506",
+    "tags": [
+      "dp",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*1700"
+    ],
+    "timestamp": "Aug/20/2019 21:29"
+  },
   "CF59649708": {
     "contest_id": 158,
     "language": "GNU C++17",
