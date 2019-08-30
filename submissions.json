@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF59714854": {
+    "contest_id": 1213,
+    "language": "Python 3",
+    "path": "codeforces\\1213\\B.py",
+    "problem_index": "B",
+    "problem_name": "Bad Prices",
+    "problem_url": "https://codeforces.com/contest/1213/problem/B",
+    "submission_id": "CF59714854",
+    "submission_url": "https://codeforces.com/contest/1213/submission/59714854",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Aug/30/2019 20:12"
+  },
   "CF59725887": {
     "contest_id": 1213,
     "language": "Python 3",
