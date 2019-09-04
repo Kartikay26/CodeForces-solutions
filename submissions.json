@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF59996613": {
+    "contest_id": 1214,
+    "language": "GNU C++17",
+    "path": "codeforces\\1214\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Bad Sequence",
+    "problem_url": "https://codeforces.com/contest/1214/problem/C",
+    "submission_id": "CF59996613",
+    "submission_url": "https://codeforces.com/contest/1214/submission/59996613",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Sep/04/2019 15:23"
+  },
   "CF60092096": {
     "contest_id": 1217,
     "language": "GNU C++17",
