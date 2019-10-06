@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF62017528": {
+    "contest_id": 1241,
+    "language": "GNU C++17",
+    "path": "codeforces\\1241\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Save the Nature",
+    "problem_url": "https://codeforces.com/contest/1241/problem/C",
+    "submission_id": "CF62017528",
+    "submission_url": "https://codeforces.com/contest/1241/submission/62017528",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Oct/06/2019 21:42"
+  },
   "CF62121202": {
     "contest_id": 1238,
     "language": "GNU C++17",
