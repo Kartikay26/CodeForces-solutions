@@ -118,6 +118,26 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF62727234": {
+    "contest_id": 1237,
+    "language": "Python 3",
+    "path": "codeforces\\1237\\C2.py",
+    "problem_index": "C2",
+    "problem_name": "Balanced Removals (Harder)",
+    "problem_url": "https://codeforces.com/contest/1237/problem/C2",
+    "submission_id": "CF62727234",
+    "submission_url": "https://codeforces.com/contest/1237/submission/62727234",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "divide and conquer",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Oct/16/2019 22:14"
+  },
   "CF62727336": {
     "contest_id": 1237,
     "language": "Python 3",
