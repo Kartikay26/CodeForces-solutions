@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF84472205": {
+    "contest_id": 1370,
+    "language": "GNU C++17",
+    "path": "codeforces\\1370\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Number Game",
+    "problem_url": "https://codeforces.com/contest/1370/problem/C",
+    "submission_id": "CF84472205",
+    "submission_url": "https://codeforces.com/contest/1370/submission/84472205",
+    "tags": [
+      "games",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Jun/20/2020 21:03"
+  },
   "CF85474186": {
     "contest_id": 1374,
     "language": "GNU C++17",
