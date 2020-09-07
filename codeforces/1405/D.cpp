@@ -16,10 +16,10 @@ template<typename T> void get(T* x, int n){for (int i = 0; i < n; ++i) { cin >> 
 template<typename T> void get(T& x, int n){for (int i = 0; i < n; ++i) { cin >> x[i]; }}
 template<typename T, typename... A> void print(T x,A... r){cout << x << " ";print(r...);}
 template<typename T, typename... A> void prints(T x,A... r){cout << x << " ";prints(r...);}
- 
+
 const int mod = 1e9+7;
 const int N = 1e6+1;
- 
+
 string testcase(int t){
 	int n, a, b, da, db;
 	cin >> n >> a >> b >> da >> db;
@@ -66,14 +66,20 @@ string testcase(int t){
 	};
 	int treeDia = maxDist(maxDist(1).first).second;
 	int AtoB = distAB(a, b);
- 
-	if (AtoB > da && db > 2*da && treeDia > 2*da) {
-		return "Bob";
+	debug(AtoB, treeDia);
+	if (AtoB <= da) {
+		return "Alice";
 	}
- 
-	return "Alice";
+	if (2*da >= treeDia) {
+		return "Alice";
+	}
+	if (db > 2*da) {
+		return "Bob";
+	} else {
+		return "Alice";
+	}
 }
- 
+
 int32_t main(){
 	fast_io();
 	int t;
