@@ -30,24 +30,37 @@ int32_t main(){
 	sort(all(a));
 
 	auto cost = [&](int b){
+		double p = 1, ans = 0;
+		for (int i = 0; i < n; ++i) {
+			ans += abs(a[i] - p);
+			p *= b;
+		}
+		return ans;
+	};auto costi = [&](int b){
 		int p = 1, ans = 0;
 		for (int i = 0; i < n; ++i) {
 			ans += abs(a[i] - p);
-			if (LLONG_MAX / p <= b) return LLONG_MAX;
 			p *= b;
 		}
 		return ans;
 	};
 
-	int ans = LLONG_MAX;
+	auto cost_dec = [&](int x) {
+		return cost(x) > cost(x+1);
+	};
+
+	int ans = 0;
 
 	int m = exp(log(2*a[a.size()-1]) / (n-1)) + 1;
 
-	for (int i = 1; i <= m; ++i) {
-		ans = min(ans, cost(i));
+	for(int b = m; b >= 1; b /= 2) {
+		while (cost_dec(ans+b)) {
+			ans += b;
+			debug(ans);
+		}
 	}
 
-	print(ans);
+	print(costi(ans+1));
 
 	return 0;
 }
