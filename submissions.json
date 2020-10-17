@@ -118,6 +118,24 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF95725412": {
+    "contest_id": 747,
+    "language": "GNU C++17",
+    "path": "codeforces\\747\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Comments",
+    "problem_url": "https://codeforces.com/contest/747/problem/E",
+    "submission_id": "CF95725412",
+    "submission_url": "https://codeforces.com/contest/747/submission/95725412",
+    "tags": [
+      "dfs and similar",
+      "expression parsing",
+      "implementation",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Oct/17/2020 15:14"
+  },
   "CF95737949": {
     "contest_id": 923,
     "language": "GNU C++17",
