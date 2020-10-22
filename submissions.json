@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF96348657": {
+    "contest_id": 389,
+    "language": "GNU C++17",
+    "path": "codeforces\\389\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Fox and Cross",
+    "problem_url": "https://codeforces.com/contest/389/problem/B",
+    "submission_id": "CF96348657",
+    "submission_url": "https://codeforces.com/contest/389/submission/96348657",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Oct/22/2020 15:25"
+  },
   "CF96350690": {
     "contest_id": 312,
     "language": "GNU C++17",
