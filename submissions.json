@@ -118,6 +118,22 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF96532317": {
+    "contest_id": 358,
+    "language": "GNU C++17",
+    "path": "codeforces\\358\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Dima and Hares",
+    "problem_url": "https://codeforces.com/contest/358/problem/D",
+    "submission_id": "CF96532317",
+    "submission_url": "https://codeforces.com/contest/358/submission/96532317",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Oct/24/2020 18:52"
+  },
   "CF96607108": {
     "contest_id": 339,
     "language": "GNU C++17",
