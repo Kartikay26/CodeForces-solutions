@@ -118,6 +118,24 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF96706190": {
+    "contest_id": 374,
+    "language": "GNU C++17",
+    "path": "codeforces\\374\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Inna and Dima",
+    "problem_url": "https://codeforces.com/contest/374/problem/C",
+    "submission_id": "CF96706190",
+    "submission_url": "https://codeforces.com/contest/374/submission/96706190",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Oct/25/2020 19:50"
+  },
   "CF96777866": {
     "contest_id": 283,
     "language": "GNU C++17",
