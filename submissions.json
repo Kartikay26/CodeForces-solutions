@@ -118,6 +118,23 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF97833927": {
+    "contest_id": 231,
+    "language": "GNU C++17",
+    "path": "codeforces\\231\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "To Add or Not to Add",
+    "problem_url": "https://codeforces.com/contest/231/problem/C",
+    "submission_id": "CF97833927",
+    "submission_url": "https://codeforces.com/contest/231/submission/97833927",
+    "tags": [
+      "binary search",
+      "sortings",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Nov/07/2020 15:17"
+  },
   "CF98053579": {
     "contest_id": 255,
     "language": "GNU C++17",
