@@ -12,28 +12,24 @@ typedef long long int ll;
 
 int solve(int k)
 {
-    int d = sqrt(8*k+1);
-    if (d*d == 8*k+1) {
-        return (d-1)/2;
-    }
-    return -1;
+	int d = sqrt(8*k+1);
+	if (d * d == 8*k+1) {
+		return (d - 1)/2;
+	}
+	return -1;
 }
 
 void test()
 {
-    int n;
-    cin >> n;
-    int k1 = 1;
-    int i = 2;
-    while (k1 < n) {
-        if (solve(n-k1) != -1) {
-            cout << "YES" << endl;
-            return;
-        }
-        k1 += i;
-        i++;
+	int n;
+	cin >> n;
+    for (int k1 = 1, i = 1; k1 < n; ++i, k1 += i) {
+    	int k2 = n-k1;
+    	if (solve(k2) != -1) {
+    		cout << "YES\n"; return;
+    	}
     }
-    cout << "NO" << endl;
+    cout << "NO\n";
 }
 
 int32_t main()
