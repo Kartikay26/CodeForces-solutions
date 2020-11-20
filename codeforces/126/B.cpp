@@ -64,16 +64,29 @@ void test()
     }
     // answer will be either (n)th or (n-1)st in this array
     reverse(prefix.begin(), prefix.end());
-    for (int len : prefix) {
+    debug(prefix);
+    auto checkLen = [&](int len) {
         // check if this occurs in the middle of the string (i.e. index [1] to [n-1-len])
         for (int i = 1; i <= n-1-len; ++i) {
             if (hashes[len-1] == substringHash(i, i+len-1)) {
-                cout << s.substr(0, len) << endl;
-                return;
+                return true;
             }
         }
+        return false;
+    };
+    // check(prefix): [F, F, F, T, T, T, T]
+    // find first true
+    if (prefix.size() == 0 or !checkLen(prefix.back())) {
+        cout << "Just a legend" << endl;
+        return;
     }
-    cout << "Just a legend" << endl;
+    int x = prefix.size()-1;
+    for (int b = prefix.size()-1; b > 0; b/=2) {
+        while (x-b>=0 and checkLen(prefix[x-b])) {
+            x -= b;
+        }
+    }
+    cout << s.substr(0, prefix[x]) << endl;
 }
 
 int32_t main()
