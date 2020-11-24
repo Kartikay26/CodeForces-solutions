@@ -118,6 +118,21 @@
     ],
     "timestamp": "Dec/24/2020 22:50"
   },
+  "CF99375174": {
+    "contest_id": 540,
+    "language": "GNU C++17",
+    "path": "codeforces\\540\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Ice Cave",
+    "problem_url": "https://codeforces.com/contest/540/problem/C",
+    "submission_id": "CF99375174",
+    "submission_url": "https://codeforces.com/contest/540/submission/99375174",
+    "tags": [
+      "dfs and similar",
+      "*2000"
+    ],
+    "timestamp": "Nov/24/2020 13:50"
+  },
   "CF99404543": {
     "contest_id": 1454,
     "language": "GNU C++17",
